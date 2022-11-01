@@ -9,7 +9,6 @@
     font-family: 'Poppins', sans-serif;
 }
 .navbar{
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,14 +16,12 @@
     padding-right: 20px;
     padding-top: 10px;
 }
-.logo{
-    width: 35px;
-    height: 35px;
+.logo{    
     background-color: #f77e53;
     border-radius: 50%;
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding: 8px 15px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -32,6 +29,7 @@
     display: flex;
 }
 .logopart h3{
+    font-size: 25px;
     padding-top: 8px;
     padding-left: 5px;
 }
@@ -63,10 +61,9 @@
     background-color: rgb(178, 193, 233);
     color: blue;
     border: none;
-    height: 30px;
     padding: 0px 10px;
     margin-top: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -74,39 +71,40 @@
     color: white;
     background-color: blue;
     font-weight: bold;
-   
 }
 .part1{
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-top: 30px;
 }
 .send{
     font-size: 40px;
     color: #f77e53;
     position: absolute;
     top: 140px;
-    right: 390px;
+    right: 520px;
 }
 .left h1{
+    font-size: 50px;
     padding-left: 20px;
     padding-top: 80px;
 }
 .leftp{
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 20px;
     padding-top: 20px;
-    line-height: 25px;
+    line-height: 30px;
     color: #606176;
 }
 .left button{
     margin-top: 30px;
     margin-left: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px 15px 25px;
     background-color: #f77e53;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     cursor: pointer;
     transition: 0.5s;
@@ -121,16 +119,16 @@
     padding-top: 20px;
 }
 .rect{
-    width: 400px;
-    height: 200px;
+    width: 420px;
+    height: 220px;
     background-color: #b8dcff;
     margin-top: 250px;
-    margin-right: 100px;
+    margin-right: 20px;
     border-radius: 5px;
 }
 .man1{
     position: absolute;
-    right: 120px;
+    right: 200px;
     top: 50px;
 }
 .circle{
@@ -139,23 +137,17 @@
     border-radius: 50%;;
     background-color: #b8dcff;
     position: absolute;
-    top: 410px;
-    right: 540px;
+    top: 415px;
+    right: 610px;
 }
-.check{
-   color: #2076ff;
-   position: absolute;
-   top: 20px;
-   right: 15px;
-   font-size: 20px;
-}
+
 .counting{
     width: 170px;
     height: 80px;
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    right: 380px;
+    right: 450px;
     top: 350px;
     z-index: 1;
     font-size: 10px;
@@ -202,7 +194,7 @@
     padding: 10px;
     position: absolute;
     top: 330px;
-    right: 160px;
+    right: 260px;
 }
 .cab i{
     font-size: 40px;
@@ -214,10 +206,17 @@
     border-radius: 10px;
     position: absolute;
     top: 30px;
-    right: 30px;
+    right: 50px;
     text-align: center;
     box-shadow:0.5px 0.5px rgb(238, 237, 237);
 }
+.check{
+    color: #2076ff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+ }
 .followers p{
     font-size: 12px;
 }
@@ -231,10 +230,7 @@
     right: 70px;
 }
 .semicircle{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    width: 150px;
+    margin: 10px 20px 30px 0px;
     height: 100px;
     position: relative;
     color: black;
@@ -242,6 +238,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: 150px;
     box-sizing: border-box;
     overflow: hidden;
 }   
@@ -286,10 +283,10 @@
     position: relative;
 }
 .rect1{
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 430px;
     background-color: #ffd2b3;
-    margin-left: 20px;
+    margin-left: 8%;
     margin-top: 100px;
 }
 .man{
@@ -298,8 +295,8 @@
     left: 0;
 }
 .profiles{
-    width: 200px;
-    height: 110px;
+    width: 250px;
+    height: 140px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
@@ -317,8 +314,8 @@
     padding-top: 10px;
 }
 .people1{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #f77e53;
 }
@@ -326,41 +323,45 @@
     border-radius: 50%;
 }
 .people2{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #f77e53;
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     position: absolute;
     top: 60px;
-    left: 140px;
+    left: 160px;
 }
 .peo1{
     position: absolute;
     top: 60px;
-    left: 20px;
+    left: 30px;
 }
 .peo2{
     position: absolute;
     top: 60px;
-    left: 50px;
+    left: 65px;
 }
 .peo3{
     position: absolute;
     top: 60px;
-    left: 80px;
+    left: 100px;
 }
 .peo4{
     position: absolute;
     top: 60px;
-    left: 110px;
+    left: 130px;
+}
+.part3 h2{
+    margin-left: 20px;
+    font-size: 30px;
 }
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 30px;
     gap: 80px;
 }
 .iconback{
@@ -371,25 +372,31 @@
     font-size: 25px;
     padding: 12px;
 }
-.learn h5{
+.learn h3{
     margin-top: 20px;
 }
+
 .learn p{
     padding-top: 10px;
     line-height: 25px;
-    font-size: 12px;
+    font-size: 16px;
     color: #606176;
+    word-spacing: 5px;
 }
 .part4{
     position: relative;
     margin-left: 20px;
-    margin-right: 20px;
     margin-top: 100px;
+    margin-right: 20px;
+
+}
+.part4 h2{
+    font-size: 30px;
 }
 .viewall{
     position: absolute;
-    right: 10px;
     top: 10px;
+    right: 20px;
     padding: 10px;
     border-radius: 10px;
     background-color: white;
@@ -407,16 +414,19 @@
 .grid1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 350px;
     margin-top: 80px;
+    margin-right: 20px;
+    gap: 130px;
+    text-align: center;
 }
-.box h5{
+.box h4{
     padding-top: 20px;
 }
 .user{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .user p{
     font-size: 12px;
@@ -428,7 +438,7 @@
 }
 
 .box button{
-    padding: 10px 50px;
+    padding: 15px 80px;
     margin-top: 20px;
     color: #297cfd;
     background-color: white;
@@ -436,6 +446,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    margin-left: 10px;
 }
 .box button:hover{
     background-color: #297cfd;
@@ -451,16 +462,19 @@
     position: relative;
 }
 .part5 h2{
-    margin-top: 120px;
+    margin-top: 100px;
+    font-size: 30px;
 }
 .part5 p{
     margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
 }
 .part5 button{
     margin-left: -5px;
 }
 .rect2{
-    width: 500px;
+    width: 540px;
     height: 450px;
     background-color: #f6f5fa;
     border-radius: 10px;
@@ -468,11 +482,9 @@
 .videoimg{
     position: absolute;
     top: 80px;
-    right: 140px;
+    right: 240px;
 }
-.lecture{
-    width: 120px;
-    height: 90px;
+.lecture{   
     background-color: white;
     border-radius: 10px;
     padding: 10px;
@@ -483,7 +495,7 @@
 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
+    gap: 20px;
     position: absolute;
     top: 400px;
     right: 30px;
@@ -495,30 +507,29 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    
+}
+.part6 h2{
+    font-size: 30px;
 }
 .sub{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 40px;
-    line-height: 25px;
+    line-height: 30px;
 }
 .sub1{
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 25px;
+    word-spacing: 8px;
     color: #606176;
 }
 .subr{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 100px;
-    line-height: 25px;
-}
-.sub1{
-    margin-top: 20px;
-    font-size: 15px;
-    line-height: 25px;
-    color: #606176;
+    margin-top: 110px;
+    line-height: 30px;
 }
 .arrow{
     position: absolute;
@@ -571,75 +582,79 @@
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 270px;
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    gap: 120px;
 }
 .part7 h2{
     margin-left: 20px;
+    font-size: 30px;
 }
 .list{
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
     background-color: #edf3ff;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .list h4{
     background-color: #2076ff;
-    height: 50px;
+    height: 70px;
+    font-size: 25px;
     text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
     color: white;
 }
 .list1{
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
     background-color: #fef0c3;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .list1 h4{
     background-color: #f6c07a;
-    height: 50px;
+    height: 70px;
+    font-size: 25px;
     text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
     color: white;
 }
 .list2{
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
     background-color: #fee6dc;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .list2 h4{
     background-color: #f77e53;
-    height: 50px;
+    height: 70px;
+    font-size: 25px;
     text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
     color: white;
 }
 .rate{
-    padding-left: 90px;
+    text-align: center;
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
 }
 .part7 ul{
-    padding-left: 30px;
-    padding-top: 20px;
-    font-size: 12px;
-    line-height: 30px;
+    padding-left: 70px;
+    padding-top: 30px;
+    line-height: 40px;
     list-style: none;
+    font-weight: bold;
 }
 .part7 li{
     padding-left: 5px;
-    font-size: 15px;
+    font-size: 17px;
 }
 .list ul li:before{
     content: "\2022";
@@ -674,9 +689,9 @@
     color: #297cfd;
     border: 1px solid #297cfd;
     border-radius: 10px;
-    padding: 20px 80px;
+    padding: 20px 130px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 40px;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
@@ -691,9 +706,9 @@
     color: #f6c07a;
     border: 1px solid #f6c07a;
     border-radius: 10px;
-    padding: 20px 80px;
+    padding: 20px 130px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: white;
     font-weight: bold;
     cursor: pointer;
@@ -708,9 +723,9 @@
     color: #f77e53;
     border: 1px solid #f77e53;
     border-radius: 10px;
-    padding: 20px 80px;
+    padding: 20px 130px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: white;
     font-weight: bold;
     cursor: pointer;
@@ -755,6 +770,7 @@
     height: 50px;
     border: 1px solid black;
     margin-top: 20px;
+    margin-right: 20px;
     display: flex;
     border-radius: 10px;
 }
@@ -779,10 +795,11 @@ footer{
     font-size: 12px;
     margin-top: 30px;
     margin-left: 20px;
+    margin-right: 20px;
     color: #606176;
     margin-bottom: 30px;
 }
 hr{
-    width: 1320px;
+    width: 97%;
     margin-left: 20px;
 }
