@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+   
 }
 .navbar{
     display: flex;
@@ -21,21 +21,25 @@
     border-radius: 50%;
     color: white;
     text-align: center;
-    padding: 8px 15px;
-    font-size: 20px;
+    padding: 5px 15px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Kolker Brush', cursive;
 }
 .logopart{
     display: flex;
+   
 }
 .logopart h3{
     font-size: 25px;
     padding-top: 8px;
     padding-left: 5px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .menu{
     list-style: none;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .menu li{
    display: inline-block;
@@ -49,6 +53,7 @@
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.5s;
 }
 .menu li a:hover{
     background-color: blue;
@@ -66,6 +71,7 @@
     border-radius: 15px;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar button:hover{
     color: white;
@@ -77,6 +83,7 @@
     justify-content: space-between;
     position: relative;
     margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .send{
     font-size: 40px;
@@ -263,6 +270,7 @@
     margin-top: 60px;
     margin-right: 20px;
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .partner{
     font-size: 40px;
@@ -281,6 +289,7 @@
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 .rect1{
     width: 350px;
@@ -388,7 +397,7 @@
     margin-left: 20px;
     margin-top: 100px;
     margin-right: 20px;
-
+    font-family: 'Poppins', sans-serif;
 }
 .part4 h2{
     font-size: 30px;
@@ -460,6 +469,7 @@
     margin-right: 20px;
     margin-left: 20px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 .part5 h2{
     margin-top: 100px;
@@ -507,6 +517,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
     
 }
 .part6 h2{
@@ -562,6 +573,7 @@
 .part7{
     margin-top: 100px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 .upgrade{
     position: absolute;
@@ -740,6 +752,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 100px 20px 50px 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .motto{
     padding-top: 20px;
